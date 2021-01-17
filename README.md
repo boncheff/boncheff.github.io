@@ -1,8 +1,3 @@
----
-layout: default
-title: boncheff.github.io
----
-
 ## About
 
 Hello World from me
