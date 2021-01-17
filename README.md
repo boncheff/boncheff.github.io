@@ -1,5 +1,6 @@
 ---
-permalink: README.html
+layout: default
+title: boncheff.github.io
 ---
 
 ## About
