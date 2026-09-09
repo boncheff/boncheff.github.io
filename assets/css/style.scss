@@ -1,0 +1,39 @@
+---
+---
+
+@import "jekyll-theme-hacker";
+
+/* Remove the "View on GitHub" button in the header */
+#downloads {
+  display: none;
+}
+
+/* Remove the username (site title) at the top, keep the tagline */
+header h1 {
+  display: none;
+}
+
+/* Tagline at the top: make it the green, large hero title */
+header h2 {
+  color: #b5e853;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: -1px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
+               0 0 5px rgba(181, 232, 83, 0.1),
+               0 0 10px rgba(181, 232, 83, 0.1);
+}
+
+/* Post titles: green + large + bold (the theme green, bold added here) */
+#main_content h1 {
+  font-weight: bold;
+}
+
+/* Home "Writing" heading: muted + light, matching the header tagline */
+#main_content h1.writing-heading {
+  color: #666;
+  font-weight: 300;
+  font-size: 18px;
+  letter-spacing: normal;
+  text-shadow: none;
+}
