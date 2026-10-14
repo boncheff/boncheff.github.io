@@ -48,8 +48,8 @@ The 46% and the 40% are all five guessed tokens averaged together. The benchmark
 
 Both servers said 3, 4042, and 9. 4042 and 9 are right. Beekeeper has five e's, so both said 3. The draft did not change the words.
 
-## The honest part
+## What I would do
 
 At one request I would turn the draft on if I cared about tokens per second and I could live with the slower gap. At sixteen I would leave it off. Same card, and the busy run spent the time worse.
 
-I only measured 1 and 16, so I do not know where it flips. I did not try a shorter guess. Three questions is a check, not an eval.
+One more thing worth mentioning. I only measured 1 and 16, so I do not know where it flips. I did not try a shorter guess, and three questions is a check, not an eval.
