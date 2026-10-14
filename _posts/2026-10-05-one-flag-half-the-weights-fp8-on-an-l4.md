@@ -38,7 +38,7 @@ The KV cache part is the bit I like. Same 16 chats, same tokens, but on bf16 the
 
 No preemption on either side. This load was never big enough to fill the cache, so that second win is "more headroom," not "it stopped evicting." You would feel that headroom when you push concurrency or context, which I did not do here.
 
-## The honest part
+## Confession
 
 I did not measure quality properly. I sent one question to each server and both answered in plain English, the fp8 one a touch more generic, neither broken. That is not an eval. If you care about output quality, run a real one on your own prompts before you trust fp8 in anything that matters. I also used the on-the-fly `--quantization fp8`, not a calibrated checkpoint, and this is one model on one card at one load.
 
